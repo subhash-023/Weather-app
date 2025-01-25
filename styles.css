@@ -1,0 +1,112 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FFFAEC;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+#locationForm {
+    display: flex;
+    justify-content: center;
+}
+
+#location-label {
+    margin: auto 10px;
+}
+
+#location {
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0;
+}
+
+#submit-btn {
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#container-1{
+    display: flex;
+}
+
+#temp{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 15px;
+    display: flex;
+    align-self: center;
+}
+
+#weather-icon {
+    width: auto;
+    height: 100px;
+}
+
+#weather-details {
+    color: rgb(107, 104, 104);
+    display: flex;
+    flex-direction: column;
+    justify-content: center ; 
+    margin-left: 15px;
+}
+
+#date-time {
+    margin-left: auto;
+    /* margin-right: auto; */
+    font-size: 1.5rem;
+}
+
+#feels-like {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.Feelslike-title {
+    color: rgb(107, 104, 104);
+}
+
+#sun-timings {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#sun-timings div {
+    margin-right: 20px;
+}
+
+#forecast-container {
+    display: flex;
+    /* width: 100px; */
+    overflow: auto;
+    /* background-color: aliceblue; */
+    white-space: nowrap;
+    margin-top: 50px;
+}
+
+.forecast-item {
+    width: 100px;
+    padding: 10px;
+    /* border: 2px solid rgb(107, 104, 104);
+    border-radius: 20px; */
+    margin: 7px;
+
+}
+
+#forecast-date {
+    color: rgb(107, 104, 104);
+    font-weight: 500;
+}
+
+#forecast-details {
+    color: rgb(107, 104, 104);
+    font-weight: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
